@@ -1,7 +1,15 @@
 export default function Etusivu() {
   return (
+    <div className="p-10">
+      <h1 className="font-playfair text-4xl text-center">Veera Rosendahl</h1>
+      <p className="font-raleway">Testikirjoitusta vähän tänne</p>
+    </div>
+  )
+  
+}
+
+/**return (
     <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-[#f8f7f3] to-[#e9e5d9] text-center px-6">
-      {/* Hero-alue */}
       <div className="max-w-2xl">
         <h1 className="text-4xl md:text-5xl font-serif text-[#2f4f4f] mb-4">
           Veera Rosendahl
@@ -17,9 +25,6 @@ export default function Etusivu() {
           Tutustu työhöni
         </button>
       </div>
-
-      {/* Taustakuva (valinnainen) */}
       <div className="absolute inset-0 -z-10 opacity-20 bg-[url('/nature.jpg')] bg-cover bg-center" />
     </section>
-  );
-}
+  ); */
