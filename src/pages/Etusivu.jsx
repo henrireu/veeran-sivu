@@ -1,12 +1,37 @@
+import picture from '../assets/images/woman.jpg'
+
 export default function Etusivu() {
   return (
-    <div className="p-10">
-      <h1 className="font-playfair text-4xl text-center">Veera Rosendahl</h1>
-      <p className="font-raleway">Testikirjoitusta vähän tänne</p>
+
+    <div>
+      <div className="w-full flex flex-col items-center px-10">
+        <div className="flex flex-col xl:flex-row px-6 py-16 lg:py-24 max-w-[800px] xl:max-w-[1600px] gap-10 border-b border-black">
+          
+          <div className="flex-1 flex flex-col gap-6">
+            <h1 className="font-playfair text-4xl">Veera Rosendahl</h1>
+            <div className="flex flex-col text-left gap-3 text-lg">
+              <p className="font-raleway">Tutkija, joogaopettaja ja maailmankansalainen. Yhdistän hallinnon, eettisen johtamisen ja kestävän kehityksen näkökulmat käytännön yhteisölliseen toimintaan.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex-1">
+            <img src={picture} />
+          </div>
+
+        </div>
+      </div>
     </div>
   )
   
 }
+
+{/*
+    <div className="p-10">
+      <h1 className="font-playfair text-4xl text-center">Veera Rosendahl</h1>
+      <p className="font-raleway">Testikirjoitusta vähän tänne</p>
+    </div>
+    */}
 
 /**return (
     <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-b from-[#f8f7f3] to-[#e9e5d9] text-center px-6">
